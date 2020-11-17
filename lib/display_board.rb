@@ -6,6 +6,6 @@ def display_board(game)
   puts " #{game[6]} | #{game[7]} | #{game[8]} "
 end
 
-board = [" "," "," "," "," "," "," "," "," "]
+board = ["X"," "," "," ","X"," "," "," ","X"]
 
 display_board(board)
